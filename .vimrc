@@ -18,6 +18,9 @@ Bundle 'airblade/vim-gitgutter'
 Bundle 'bling/vim-airline'
 Bundle 'bling/vim-bufferline'
 Bundle 'kchmck/vim-coffee-script'
+" Markdown syntax plugin + dependencies
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
 
 syntax on
 filetype plugin indent on

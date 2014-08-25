@@ -2,15 +2,14 @@ set nocompatible
 filetype on
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 
 " let Vundle manage Vundle
 " required! 
-Bundle 'scrooloose/nerdtree'
+Plugin 'gmarik/Vundle.vim'
 
 " My Bundles here:
-Bundle 'gmarik/vundle'
 Bundle 'scrooloose/nerdtree'
 Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'cakebaker/scss-syntax.vim'

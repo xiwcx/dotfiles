@@ -45,7 +45,7 @@ ZSH_THEME="pure"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git git-flow npm osx ssh-agent web-search)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -80,3 +80,4 @@ export PATH="/bin:/usr/bin:/usr/local/bin:/home/wcanavan/bin:/usr/local/sbin:/us
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias edit='vim'
 alias vundleinstall='vim +PluginInstall +qall'
+alias code="cd ~/code"

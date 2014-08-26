@@ -52,6 +52,19 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 export PATH="/bin:/usr/bin:/usr/local/bin:/home/wcanavan/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
+
+# Brew Paths
+export PATH=/usr/local/bin:$PATH
+export PATH=/usr/local/sbin:$PATH
+export PATH=/usr/local/Cellar/python/2.7.5/bin:$PATH
+export PATH=/usr/local/opt/ruby/bin:$PATH
+# export MANPATH="/usr/local/man:$MANPATH"
+
+# Virtualenvwrapper
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
+export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
+source /usr/local/bin/virtualenvwrapper.sh
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment

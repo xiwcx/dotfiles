@@ -1,0 +1,18 @@
+# Caskfile
+install caskroom/cask/brew-cask
+cask install alfred
+cask install bartender
+cask install bettertouchtool
+cask install firefox
+cask install flux
+cask install freemind
+cask install google-drive
+cask install hipchat
+cask install licecap
+cask install opera
+cask install spectacle
+
+# Brewfile
+install node
+install ruby
+install gem

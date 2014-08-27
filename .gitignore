@@ -1,0 +1,5 @@
+.atom/.node-gyp
+.atom/compile-cache
+.atom/packages
+.atom/storage
+.atom/init.coffee

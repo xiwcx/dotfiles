@@ -1,15 +1,14 @@
 # Caskfile
 install caskroom/cask/brew-cask
-cask install adobe-photoshop-lightroom
 cask install alfred
-cask install arq
+cask install atom
+# cask install arq
 cask install bartender
 cask install bettertouchtool
 cask install firefox
 cask install flux
 cask install freemind
-cask install google-chrome
-cask install google-chrome-canary
+# cask install google-chrome
 cask install google-drive
 cask install hipchat
 cask install licecap
@@ -18,6 +17,8 @@ cask install opera
 cask install spectacle
 
 # Brewfile
+install git
+install git-extras
+install legit
 install node
 install ruby
-install gem

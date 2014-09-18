@@ -94,3 +94,6 @@ source /usr/local/bin/virtualenvwrapper.sh
 alias edit='vim'
 alias vundleinstall='vim +PluginInstall +qall'
 alias code="cd ~/code"
+alias wtf="source ~/.zshrc"
+alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'

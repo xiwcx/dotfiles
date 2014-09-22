@@ -12,6 +12,7 @@ cask install freemind
 cask install google-drive
 cask install hipchat
 cask install licecap
+cask install mailbox
 cask install mou
 cask install opera
 cask install spectacle

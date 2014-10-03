@@ -21,5 +21,6 @@ cask install spectacle
 install git
 install git-extras
 install legit
+install phantomjs
 install node
 install ruby

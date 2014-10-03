@@ -11,13 +11,13 @@
   'fontFamily': '"input mono"'
   'showIndentGuide': true
   'showInvisibles': true
+  'invisibles': {}
 'core':
   'themes': [
     'seti-ui'
     'seti-syntax'
   ]
   'disabledPackages': [
-    'emmet'
     'snippets'
     'vim-mode'
     'linter-jsonlint'
@@ -26,3 +26,4 @@
   'projectHome': '/Users/wcanavan/code'
 'autoclose-html':
   'closeOnEndOfOpeningTag': true
+'emmet': {}

@@ -1,7 +1,7 @@
 {
   "name": "color-picker",
   "main": "./lib/ColorPicker",
-  "version": "1.2.1",
+  "version": "1.2.4",
   "private": true,
   "description": "A Color Picker for the Atom Editor. Right click a color and select color picker to open it.",
   "repository": {
@@ -18,10 +18,10 @@
     "url": "https://github.com/thomaslindstrom/color-picker/issues"
   },
   "homepage": "https://github.com/thomaslindstrom/color-picker",
-  "_id": "color-picker@1.2.1",
+  "_id": "color-picker@1.2.4",
   "dist": {
-    "shasum": "e5644c3cff6e144bde7202d3a96c5bfa10045574"
+    "shasum": "e758101f37213601534545ca7822f97b17dee849"
   },
-  "_resolved": "/var/folders/7m/bnqvj1p96897hr48bsf2lsmm0000gn/T/d-114727-40624-2wg9im/package.tgz",
-  "_from": "/var/folders/7m/bnqvj1p96897hr48bsf2lsmm0000gn/T/d-114727-40624-2wg9im/package.tgz"
+  "_resolved": "/private/var/folders/br/drfm9gp14pb01y5fk6jh7n5ng1q1tj/T/d-11493-82597-5li2e9/package.tgz",
+  "_from": "/private/var/folders/br/drfm9gp14pb01y5fk6jh7n5ng1q1tj/T/d-11493-82597-5li2e9/package.tgz"
 }

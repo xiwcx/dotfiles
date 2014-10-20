@@ -15,6 +15,7 @@ cask install licecap
 cask install mailbox
 cask install mou
 cask install opera
+cask install plex-home-theater
 cask install spectacle
 
 # Brewfile

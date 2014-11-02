@@ -12,7 +12,8 @@
     'fontFamily': '"input mono"'
     'showIndentGuide': true
     'showInvisibles': true
-    'fontSize': 13
+    'fontSize': 12
+    'invisibles': {}
   'core':
     'themes': [
       'seti-ui'

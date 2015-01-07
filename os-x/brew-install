@@ -1,0 +1,3 @@
+#!/bin/bash
+
+brew install git git-extras legit phantomjs node ruby

@@ -10,17 +10,17 @@ call vundle#rc()
 Plugin 'gmarik/Vundle.vim'
 
 " My Bundles here:
-Bundle 'scrooloose/nerdtree'
-Bundle 'jistr/vim-nerdtree-tabs'
-Bundle 'cakebaker/scss-syntax.vim'
-Bundle 'mattn/emmet-vim'
-Bundle 'airblade/vim-gitgutter'
-Bundle 'bling/vim-airline'
-Bundle 'bling/vim-bufferline'
-Bundle 'kchmck/vim-coffee-script'
-" Markdown syntax plugin + dependencies
-Plugin 'godlygeek/tabular'
+Plugin 'scrooloose/nerdtree'
+Plugin 'jistr/vim-nerdtree-tabs'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'bling/vim-airline'
+Plugin 'bling/vim-bufferline'
+" Syntax plugins
 Plugin 'plasticboy/vim-markdown'
+Plugin 'cakebaker/scss-syntax.vim'
+Plugin 'leshill/vim-json'
+" Tools
+Plugin 'mattn/emmet-vim'
 
 syntax on
 filetype plugin indent on

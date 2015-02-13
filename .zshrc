@@ -45,7 +45,7 @@ ZSH_THEME="pure"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git git-flow npm osx ssh-agent web-search zsh-syntax-highlighting)
+plugins=(git git-flow npm osx web-search zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -58,12 +58,15 @@ export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
 export PATH=/usr/local/Cellar/python/2.7.5/bin:$PATH
 export PATH=/usr/local/opt/ruby/bin:$PATH
-# export MANPATH="/usr/local/man:$MANPATH"
 
 # Virtualenvwrapper
-export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
-export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
-source /usr/local/bin/virtualenvwrapper.sh
+# export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
+# export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
+# source /usr/local/bin/virtualenvwrapper.sh
+
+# Java for AEM
+# export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)
+# export PATH=$JAVA_HOME:$PATH
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -94,3 +97,9 @@ source /usr/local/bin/virtualenvwrapper.sh
 alias edit='vim'
 alias vundleinstall='vim +PluginInstall +qall'
 alias code="cd ~/code"
+alias wtf="source ~/.zshrc"
+alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+alias devstart='npm install && bower install && bundle install'
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting

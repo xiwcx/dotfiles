@@ -56,19 +56,14 @@ export PATH="/bin:/usr/bin:/usr/local/bin:/home/wcanavan/bin:/usr/local/sbin:/us
 # Brew Paths
 export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
-export PATH=/usr/local/Cellar/python/2.7.5/bin:$PATH
 
 # rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
-# Virtualenvwrapper
-# export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
-# export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
-# source /usr/local/bin/virtualenvwrapper.sh
-
-# Java for AEM
-# export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)
-# export PATH=$JAVA_HOME:$PATH
+# check for local, machine specific rc file
+if [ -f ~/.zshrc-local ]; then
+	source ~/.zshrc-local
+fi
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -104,4 +99,3 @@ alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall 
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 alias devstart='npm install && bower install && bundle install'
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting

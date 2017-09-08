@@ -1,0 +1,29 @@
+"*":
+  core:
+    telemetryConsent: "limited"
+    themes: [
+      "seti-ui"
+      "seti-syntax"
+    ]
+  editor:
+    fontFamily: "'Input Mono'"
+    preferredLineLength: 120
+    showIndentGuide: true
+    showInvisibles: true
+  "exception-reporting":
+    userId: "ede9d1d3-f811-e5a8-fea1-2c2537f8deb0"
+  "linter-ui-default":
+    showPanel: true
+  "platformio-ide-terminal":
+    style:
+      theme: "solarized-dark"
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
+".editorconfig.source":
+  editor:
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+".handlebars.html.text":
+  editor:
+    tabLength: 4

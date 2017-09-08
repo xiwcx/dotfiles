@@ -1,2 +1,12 @@
 .AppleDouble
 .DS_Store
+
+# atom
+/.atom/blob-store
+/.atom/compile-cache
+/.atom/dev
+/.atom/packages
+/.atom/storage
+/.atom/.apm
+/.atom/.node-gyp
+/.atom/.npm

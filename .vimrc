@@ -1,31 +1,21 @@
-set nocompatible
-filetype on
-filetype off
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#rc()
+" https://vimawesome.com/
 
-" let Vundle manage Vundle
-" required! 
-Plugin 'gmarik/Vundle.vim'
+call plug#begin('~/.vim/plugged')
+Plug 'junegunn/vim-plug'
+Plug 'scrooloose/nerdtree'
+Plug 'airblade/vim-gitgutter'
+Plug 'bling/vim-bufferline'
+call plug#end()
 
-" My Bundles here:
-Plugin 'scrooloose/nerdtree'
-Plugin 'jistr/vim-nerdtree-tabs'
-Plugin 'airblade/vim-gitgutter'
-Plugin 'bling/vim-airline'
-Plugin 'bling/vim-bufferline'
-" Syntax plugins
-Plugin 'plasticboy/vim-markdown'
-Plugin 'cakebaker/scss-syntax.vim'
-Plugin 'leshill/vim-json'
-" Tools
-Plugin 'mattn/emmet-vim'
+" configuration
+let NERDTreeShowHidden=1
 
-syntax on
-filetype plugin indent on
-set background=dark
-
-au VimEnter * NERDTree
-au VimEnter * if !argc() | NERDTree | endif
-au VimEnter * wincmd p
+" commands
+autocmd vimenter * NERDTree
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif

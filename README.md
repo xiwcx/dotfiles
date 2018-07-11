@@ -1,15 +1,13 @@
 # Dotfiles
 
-## *nix
+## Installation
 
-- [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
-  - [Pure](https://github.com/sindresorhus/pure)
-    - [Tomorrow Night Eighties Theme](https://github.com/chriskempson/tomorrow-theme) (custom version included)
-    - [Zsh Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
-    - [Input Font](http://input.fontbureau.com/) (sans and mono)
-- [Vundle](https://github.com/gmarik/Vundle.vim)
-- [Node](http://nodejs.org/)
+1. [Brew](http://brew.sh/)
+2. [NVM](https://github.com/creationix/nvm)
+3. Terminal
+    1. [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+    2. [Pure](https://github.com/sindresorhus/pure)
+    3. [Zsh Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+    4. [Input Font](http://input.fontbureau.com/)
+    5. [vim-plug](https://github.com/junegunn/vim-plug)
 
-## OS X
-
-- [Brew](http://brew.sh/)

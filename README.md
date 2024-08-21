@@ -20,3 +20,6 @@
    ```sh
    stow -nSv --target $HOME .
    ```
+
+4. Languages
+   - [Node.js](https://github.com/nvm-sh/nvm?tab=readme-ov-file#install--update-script)

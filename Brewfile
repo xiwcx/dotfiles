@@ -1,6 +1,7 @@
 # documentation at: https://github.com/Homebrew/homebrew-bundle
 
 brew "eza"
+brew "fzf"
 brew "powerlevel10k"
 brew "stow"
 brew "zsh-autosuggestions"

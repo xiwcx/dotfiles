@@ -29,9 +29,12 @@ setopt hist_verify
 bindkey '^[[A' history-search-backward
 bindkey '^[[B' history-search-forward
 
-# ---- Eza (better ls) -----
-alias ls="eza --icons=always"
-
 # ---- Aliases ----
 alias ll="ls -l"
 alias la="ls -la"
+
+# ---- Eza (better ls) -----
+alias ls="eza --icons=always"
+
+# ---- FZF (key bindings and fuzzy completion) -----
+eval "$(fzf --zsh)"

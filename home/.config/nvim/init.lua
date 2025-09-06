@@ -734,6 +734,7 @@ require('lazy').setup({
       local ensure_installed = vim.tbl_keys(servers or {})
       vim.list_extend(ensure_installed, {
         'stylua', -- Used to format Lua code
+        'ormolu', -- Used to format Haskell code
         'prettierd', -- Used to format TypeScript, JavaScript, TSX, JSX, JSON, CSS, HTML
         'prettier', -- Alternative formatter for TypeScript, JavaScript, TSX, JSX, JSON, CSS, HTML
       })
@@ -801,6 +802,7 @@ require('lazy').setup({
       end,
       formatters_by_ft = {
         lua = { 'stylua' },
+        haskell = { 'ormolu' },
         -- Conform can also run multiple formatters sequentially
         -- python = { "isort", "black" },
         --
@@ -812,6 +814,14 @@ require('lazy').setup({
         json = { 'prettierd', 'prettier', stop_after_first = true },
         css = { 'prettierd', 'prettier', stop_after_first = true },
         html = { 'prettierd', 'prettier', stop_after_first = true },
+      },
+      formatters = {
+        ormolu = {
+          command = 'ormolu',
+          args = { '--stdin-input-file', '$FILENAME' },
+          stdin = true,
+          timeout_ms = 2000,
+        },
       },
     },
   },

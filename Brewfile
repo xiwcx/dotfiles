@@ -10,8 +10,8 @@ brew "eza"
 # https://github.com/junegunn/fzf
 brew "fzf"
 
-# https://github.com/romkatv/powerlevel10k
-brew "powerlevel10k"
+# https://starship.rs/
+brew "starship"
 
 # https://www.gnu.org/software/stow/
 brew "stow"
@@ -27,10 +27,13 @@ brew "zsh-syntax-highlighting"
 # ---- Casks ----
 
 # https://www.nerdfonts.com/
-cask "font-meslo-lg-nerd-font"
+cask "font-fira-code-nerd-font"
 
 # https://obsidian.md/
 cask "obsidian"
 
 # https://wezfurlong.org/wezterm/index.html
 cask "wezterm"
+
+# https://ghostty.org/
+cask "ghostty"

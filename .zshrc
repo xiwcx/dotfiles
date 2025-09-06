@@ -23,6 +23,7 @@ bindkey '^[[B' history-search-forward
 # ---- Aliases ----
 alias ll="ls -l"
 alias la="ls -la"
+alias vi="nvim"
 
 # ---- Eza (better ls) -----
 alias ls="eza --icons=always"
@@ -64,3 +65,11 @@ load-nvmrc
 # ---- DENO ----
 export DENO_INSTALL="$HOME/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
+
+# ---- Default Editor ----
+export EDITOR="nvim"
+export VISUAL="nvim"
+
+# ---- Haskell (GHCup) ----
+# Add GHCup to PATH for Haskell toolchain management
+export PATH="$HOME/.ghcup/bin:$PATH"

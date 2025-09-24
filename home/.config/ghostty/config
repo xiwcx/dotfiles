@@ -1,0 +1,25 @@
+# Ghostty Configuration
+# Migrated from WezTerm configuration
+
+# Font configuration
+font-family = "FiraCode Nerd Font Mono"
+font-size = 19
+
+# Color scheme - using molokai theme
+# Note: Ghostty may have different theme names, adjust as needed
+theme = molokai
+
+# Window appearance
+background-opacity = 0.9
+background-blur = 10 
+
+# Window decorations - minimal decorations (equivalent to WezTerm's RESIZE)
+window-decoration = false
+window-title-font-family = "FiraCode Nerd Font Mono"
+
+# Disable tabs (equivalent to enable_tab_bar = false in WezTerm)
+# Note: Ghostty handles tabs differently - this may need adjustment
+gtk-tabs-location = hidden
+
+# macOS specific settings
+macos-option-as-alt = true

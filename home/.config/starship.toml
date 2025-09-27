@@ -1,5 +1,8 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
+# Set command timeout to 45 minutes (2,700,000 milliseconds)
+command_timeout = 2700000
+
 format = """
 [](color_orange)\
 $os\
@@ -24,6 +27,7 @@ $python\
 $docker_context\
 $conda\
 $pixi\
+$nix_shell\
 [](fg:color_bg3 bg:color_bg1)\
 $time\
 [ ](fg:color_bg1)\
@@ -91,6 +95,7 @@ format = "[ $path ]($style)"
 symbol = ""
 style = "bg:color_aqua"
 format = '[[ $symbol $branch ](fg:color_fg0 bg:color_aqua)]($style)'
+truncation_length = 15
 
 [git_status]
 style = "bg:color_aqua"
@@ -158,6 +163,11 @@ format = '[[ $symbol( $environment) ](fg:#83a598 bg:color_bg3)]($style)'
 [pixi]
 style = "bg:color_bg3"
 format = '[[ $symbol( $version)( $environment) ](fg:color_fg0 bg:color_bg3)]($style)'
+
+[nix_shell]
+symbol = "\uf313"
+style = "bg:color_bg3"
+format = '[[ $symbol( $name) ](fg:#83a598 bg:color_bg3)]($style)'
 
 [time]
 disabled = false

@@ -7,7 +7,7 @@ font-size = 19
 
 # Color scheme - using molokai theme
 # Note: Ghostty may have different theme names, adjust as needed
-theme = molokai
+theme = Gruvbox Dark
 
 # Window appearance
 background-opacity = 0.9

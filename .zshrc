@@ -31,6 +31,9 @@ alias ls="eza --icons=always"
 # ---- FZF (key bindings and fuzzy completion) -----
 eval "$(fzf --zsh)"
 
+# ---- fnm (Fast Node Manager) ----
+eval "$(fnm env --use-on-cd)"
+
 # ---- Default Editor ----
 export EDITOR="nvim"
 export VISUAL="nvim"

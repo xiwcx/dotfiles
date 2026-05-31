@@ -21,6 +21,11 @@ brew "stow"
 # https://neovim.io/
 brew "neovim"
 
+# https://github.com/tree-sitter/tree-sitter
+# the `tree-sitter` CLI, required by nvim-treesitter's `main` branch to build
+# parsers (the plain `tree-sitter` formula ships only the library, not the CLI)
+brew "tree-sitter-cli"
+
 # https://github.com/sharkdp/fd
 brew "fd"
 
@@ -32,6 +37,12 @@ brew "zsh-autosuggestions"
 
 # https://github.com/zsh-users/zsh-syntax-highlighting
 brew "zsh-syntax-highlighting"
+
+# https://github.com/Schniz/fnm
+brew "fnm"
+
+# https://git-scm.com/
+brew "git"
 
 
 # -- haskell --
@@ -56,3 +67,27 @@ cask "wezterm"
 
 # https://ghostty.org/
 cask "ghostty"
+
+# https://1password.com/
+cask "1password"
+
+# https://claude.ai/download
+cask "claude"
+
+# https://claude.com/claude-code
+cask "claude-code"
+
+# https://github.com/jordanbaird/Ice
+cask "jordanbaird-ice"
+
+# https://lookaway.app/
+cask "lookaway"
+
+# https://www.raycast.com/
+cask "raycast"
+
+# https://vivaldi.com/
+cask "vivaldi"
+
+# https://zed.dev/
+cask "zed"

@@ -1,0 +1,7 @@
+{
+  "theme": "auto",
+  "statusLine": {
+    "type": "command",
+    "command": "~/.claude/claude-status-line.sh"
+  }
+}
